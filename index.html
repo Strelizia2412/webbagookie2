@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bagookie - Perusahaan Camilan Sehat & Ramah Lingkungan</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f7f6;
+      color: #333;
+    }
+
+    header {
+      background-color: #2a7a29;
+      color: white;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-weight: 700;
+      font-size: 28px;
+      letter-spacing: 1.5px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #a3d977;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://images.unsplash.com/photo-1516685018646-549d07c14640?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      font-weight: 700;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 700px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+
+    /* Section Styling */
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    section h3 {
+      color: #2a7a29;
+      font-size: 28px;
+      margin-bottom: 20px;
+      border-left: 5px solid #4caf50;
+      padding-left: 12px;
+    }
+
+    p, ul {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* Button */
+    .btn {
+      display: inline-block;
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 28px;
+      font-size: 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background-color: #388e3c;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #2a7a29;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      margin-top: 80px;
+      font-size: 16px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 30px;
+      }
+      .hero p {
+        font-size: 16px;
+      }
+      nav a {
+        margin-right: 10px;
+        font-size: 14px;
+      }
+      section {
+        margin: 40px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bagookie</h1>
+  <nav>
+    <a href="#home">Beranda</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#products">Produk</a>
+    <a href="#sustainability">Sustainability</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>Camilan Sehat & Ramah Lingkungan</h2>
+  <p>Bagookie hadir sebagai solusi camilan lezat yang mendukung keberlanjutan lingkungan dan memberdayakan petani lokal.</p>
+</section>
+
+<section id="about">
+  <h3>Tentang Kami</h3>
+  <p>Bagookie didirikan pada tahun 2023 dengan visi menjadi pelopor camilan sehat dan sustainable di Indonesia. Kami percaya bahwa produk berkualitas harus dihasilkan dengan cara yang bertanggung jawab terhadap lingkungan dan masyarakat.</p>
+  <p>Dengan memanfaatkan bahan alami dan limbah pertanian, kami menghadirkan produk inovatif yang tidak hanya lezat tapi juga ramah bumi.</p>
+</section>
+
+<section id="products">
+  <h3>Produk Kami</h3>
+  <p>Kami menawarkan berbagai varian Bagookie yang dibuat dari bahan alami berkualitas dan tanpa bahan pengawet. Produk kami cocok untuk semua kalangan yang ingin camilan sehat dan bergizi.</p>
+  <a href="#" class="btn">Lihat Semua Produk</a>
+</section>
+
+<section id="sustainability">
+  <h3>Komitmen Sustainability</h3>
+  <ul>
+    <li><strong>Bahan Baku Bertanggung Jawab:</strong> Mendukung petani lokal dengan bahan baku alami.</li>
+    <li><strong>Kemasan Ramah Lingkungan:</strong> Kemasan biodegradable yang mudah didaur ulang.</li>
+    <li><strong>Pengelolaan Limbah:</strong> Pemanfaatan limbah pertanian seperti ampas tebu dan jerami padi.</li>
+    <li><strong>Dampak Sosial Positif:</strong> Memberdayakan komunitas sekitar dan meningkatkan ekonomi lokal.</li>
+  </ul>
+  <p>Bersama Bagookie, Anda turut menjaga bumi dan mendukung keberlanjutan masa depan.</p>
+</section>
+
+<section id="contact">
+  <h3>Kontak Kami</h3>
+  <p>Hubungi kami untuk informasi produk, kerjasama, atau pertanyaan lainnya:</p>
+  <ul>
+    <li>Email: <a href="mailto:info@bagookie.com">info@bagookie.com</a></li>
+    <li>Telepon: +62 812 3456 7890</li>
+    <li>Instagram: <a href="https://instagram.com/bagookie" target="_blank" rel="noopener noreferrer">@bagookie</a></li>
+    <li>Alamat: Jl. Raya Pertanian No. 88, Kabupaten Tulungagung, Jawa Timur</li>
+  </ul>
+</section>
+
+<footer>
+  &copy; 2025 Bagookie. Semua hak cipta dilindungi.
+</footer>
+
+</body>
+</html>
